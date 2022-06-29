@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".DetailActivity"
+    android:background="@drawable/bg">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_horizontal"
+        android:paddingTop="60dp"
+        android:orientation="vertical">
+        <TextView
+            android:id="@+id/tv_item_name"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:paddingBottom="20dp"
+            android:textSize="30sp"
+            android:textStyle="bold"
+            android:textColor="@color/dark_brown"
+            android:text="@string/name_kopi"/>
+        <ImageView
+            android:id="@+id/img_item_photo"
+            android:layout_width="250dp"
+            android:layout_height="250dp"
+            android:src="@color/dark_brown"/>
+        <TextView
+            android:id="@+id/tv_item_detail"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:textColor="@color/white_brown"
+            android:text="@string/detail_kopi"
+            android:textSize="16sp"
+            android:padding="30dp"/>
+    </LinearLayout>
+
+
+</ScrollView>

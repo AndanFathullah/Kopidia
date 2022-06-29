@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">Kopidia</string>
+    <string name="name_kopi">Nama Kopi</string>
+    <string name="detail_kopi">Detail Kopi</string>
+    <string name="profile">profile</string>
+    <string name="nama_user">Fathullah Auzan Setyo Laksono</string>
+    <string name="email_user">a0040337@bangkit.academy</string>
+    <string name="vesion">v.1.0</string>
+</resources>
